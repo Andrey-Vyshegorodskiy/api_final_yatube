@@ -32,6 +32,12 @@ class Post(models.Model):
     def __str__(self):
         return self.text
 
+#  При добавлении сортировки в модель поста встроенный тест завершается
+#  с ошибкой.
+#  При тестировании в ручном режиме - все ок.
+#   class Meta:
+#       ordering = ('-pub_date',)
+
 
 class Comment(models.Model):
     author = models.ForeignKey(
