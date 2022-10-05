@@ -54,4 +54,4 @@ python manage.py runserver
 15. Обновить JWT-токен POST http://127.0.0.1:8000/api/v1/jwt/refresh/
 16. Проверить JWT-токен POST http://127.0.0.1:8000/api/v1/jwt/verify/
 
-Автор: [Андрей Вышегородский](https://github.com/themasterid) :+1:
+Автор: [Андрей Вышегородский](https://github.com/Andrey-Vyshegorodskiy) :+1:
